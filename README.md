@@ -75,10 +75,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [The Markdown Guide](https://www.markdownguide.org/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
-- Website - [stevenmnoyes.com](https://www.stevenmnoyes.com)
+- Website - [Portfolio](https://www.stevenmnoyes.com)
 - Frontend Mentor - [@SteveNoyes](https://www.frontendmentor.io/profile/SteveNoyes)
 - GitHub - [SteveNoyes](https://github.com/SteveNoyes)
