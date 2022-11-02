@@ -1,4 +1,52 @@
+/* Colors */
+
+/* 
+Primary
+  - Salmon: 
+      hsl(0, 100%, 74%), 
+      #ff7a7a, 
+      rgb(255, 122, 122)
+  - Mountain Meadow: 
+      hsl(154, 59%, 51%), 
+      #38cc8c, 
+      rgb(56, 204, 140)
+    
+  Accent
+  - Liberty: 
+      hsl(248, 32%, 49%)
+      #6055a5, 
+      rgb(96, 85, 165)
+
+  Neutral
+  - Arsenic:
+      hsl(249, 10%, 26%)
+      #3e3c49, 
+      rgb(62, 60, 73)
+  - Lavender Gray: 
+      hsl(246, 25%, 77%)
+      #b9b6d3, 
+      rgb(185, 182, 211)
+ */
+
+:root {
+  --salmon: hsl(0, 100%, 74%);
+  --mountainMeadow: hsl(154, 59%, 51%);
+  --liberty: hsl(248, 32%, 49%);
+  --arsenic: hsl(249, 10%, 26%);
+  --lavenderGray: hsl(246, 25%, 77%);
+
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  /* Font - Poppins */
+  /* Weights: 400, 500, 600, 700 */
+  font-family: 'Poppins', sans-serif, monospace;
   font-size: 16px;
 }
+
+
+/* Media Queries
+ * Mobile: 375px
+ * Desktop: 1440px 
+*/
+
