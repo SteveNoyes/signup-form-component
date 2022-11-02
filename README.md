@@ -6,23 +6,20 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [Featured Section](#featured-section)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
 
 ## Overview
 
 ### The challenge
 
 Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Receive an error message when the `form` is submitted if:
-  - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
-  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
+  - View the optimal layout for the site depending on their device's screen size
+  - See hover states for all interactive elements on the page
+  - Receive an error message when the `form` is submitted if:
+    - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
+    - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
 
 ### Screenshot
 
@@ -47,34 +44,30 @@ Users should be able to:
 - Vanilla JavaScript
 - Mobile-first workflow
 
-### What I learned
+### Featured Section
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Provided are code samples of areas of highlight.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
   console.log('🎉')
 }
 ```
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 ### Useful resources
 
 - [The Markdown Guide](https://www.markdownguide.org/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [MDN](https://developer.mozilla.org/en-US/) - Mainly used for positioning in CSS. Box model reference and example references.
 
 ## Author
 
