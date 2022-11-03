@@ -24,7 +24,7 @@
       <p><span>Try it free 7 days</span> then<br> $20/mo. thereafter</p>
     </div>
     <div class="freetrialForm">  
-      <form onsubmit="return check()" novalidate>
+      <form novalidate>
         <label for="fname"></label><br>
         <input type="text" id="fname" name="fname" placeholder="First Name" required>
         <div id="fcname" class="emsg"></div> 
@@ -37,7 +37,7 @@
         <label for="pwd"></label><br>
         <input type="password" id="pwd" name="pwd" placeholder="Password">
         <div id="cpwd" class="emsg"></div>
-        <input class="submitBtn" type="submit" value="CLAIM YOUR FREE TRIAL"/>
+        <input class="submitBtn" type="submit" onsubmit="check()" value="CLAIM YOUR FREE TRIAL"/>
       </form>
       <p class="termsAndServices">By clicking the button, you are agreeing to our <span class="salmonCol">Terms and Services</span></p>
     </div>
