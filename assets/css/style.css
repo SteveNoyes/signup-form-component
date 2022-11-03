@@ -48,7 +48,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 /* Media Queries
@@ -56,13 +55,50 @@ body {
  * Desktop: 1440px 
 */
 
-/* box-shadow: 0px 4px 2px 1px var(arsenic); */
-
-h1 {
+.heading {
   font-weight: 600;
   font-size: 1.8rem;
   text-align: center;
-  
+  line-height: 2.4rem;
   width: 75%;
   margin: auto;
+  padding-top: 6rem;
+  padding-bottom: 1rem;
 }
+
+.graph {
+  font-weight: 400;
+  text-align: center;
+  line-height: 2rem;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 4rem;
+}
+
+.offerModule {
+  background-color: var(--liberty);
+  height: 100px;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  margin: auto;
+  align-items:center;
+  justify-content:center;
+  box-shadow: 0 7px 3px 1px rgba(62, 60, 73, .3);
+
+}
+
+.offerModule p {
+  line-height: 1.8rem;
+  letter-spacing: .1rem;
+}
+
+.offerModule span {
+  font-weight: 700;
+}
+
+.err { background: #ffe6ee; border: 1px solid #b1395f; }
+.emsg { color: #c12020; font-weight: bold; }
