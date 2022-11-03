@@ -69,10 +69,17 @@ const proudOfThisFunc = () => {
 ### Useful resources
 
 - [The Markdown Guide](https://www.markdownguide.org/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+
 - [MDN](https://developer.mozilla.org/en-US/) - Mainly used for positioning in CSS. Box model reference and example references.
+
 - [email input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+
 - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+
 - [text spacing](https://www.w3schools.com/css/css_text_spacing.asp) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+
+- [HTML form placeholder](https://www.w3schools.com/howto/howto_css_placeholder.asp) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+
 ## Author
 
 - Website - [Portfolio](https://www.stevenmnoyes.com)

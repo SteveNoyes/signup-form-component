@@ -1,10 +1,26 @@
-// (C) FORM CHECK 
+
+
+
+
+
+// FORM CHECK 
 
 function check () {
-  // (C1) INIT
+  // INIT
   var valid = true, error = "", field = "";
-  // (C2) First Name
-  field = document.getElementById("fname");
+  // First Name
+  field = document.getElementById("fcname");
+  error = document.getElementById("fname");
+  if (!field.checkValidity()) {
+    valid = false;
+    field.classList.add("err");
+    error.innerHTML = "First Name cannot be empty\r\n";
+  } else {
+    field.classList.remove("err");
+    error.innerHTML = "";
+  }
+  // Last Name
+  field = document.getElementById("lcname");
   error = document.getElementById("cname");
   if (!field.checkValidity()) {
     valid = false;
@@ -14,28 +30,28 @@ function check () {
     field.classList.remove("err");
     error.innerHTML = "";
   }
-  // (C2) Last Name
-  field = document.getElementById("lname");
-  error = document.getElementById("cname");
+  // Email
+  field = document.getElementById("email");
+  error = document.getElementById("cemail");
   if (!field.checkValidity()) {
     valid = false;
     field.classList.add("err");
-    error.innerHTML = "First Name cannot be empty\r\n";
+    error.innerHTML = "Looks like this is not an email";
   } else {
     field.classList.remove("err");
     error.innerHTML = "";
   }
-  // (C3) NUMBER
-  field = document.getElementById("fnumber");
-  error = document.getElementById("cnumber");
+  // Password
+  field = document.getElementById("pwd");
+  error = document.getElementById("cpwd");
   if (!field.checkValidity()) {
     valid = false;
     field.classList.add("err");
-    error.innerHTML = "Num must be between 1-12\r\n";
+    error.innerHTML = "Password cannot be empty";
   } else {
     field.classList.remove("err");
     error.innerHTML = "";
   }
-  // (C4) RESULT
+  // Result
   return valid;
 }

@@ -1,5 +1,4 @@
 /* Colors */
-
 /* 
 Primary
 - Salmon: 
@@ -34,6 +33,10 @@ Neutral
   --arsenic: hsl(249, 10%, 26%);
   --lavenderGray: hsl(246, 25%, 77%);
   --lite: #fefffd;
+}
+
+.salmonCol {
+  color: var(--salmon);
 }
 
 body {
@@ -88,7 +91,6 @@ body {
   align-items:center;
   justify-content:center;
   box-shadow: 0 7px 3px 1px rgba(62, 60, 73, .3);
-
 }
 
 .offerModule p {
@@ -100,5 +102,57 @@ body {
   font-weight: 700;
 }
 
-.err { background: #ffe6ee; border: 1px solid #b1395f; }
-.emsg { color: #c12020; font-weight: bold; }
+/* Form */
+.freetrialForm {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  background-color: var(--lite);
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 7px 3px 1px rgba(62, 60, 73, .3);
+}
+
+form {
+  padding: 1.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 20px 0;
+  border: 1px solid var(--lavenderGray);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Form Submit */
+
+.submitBtn {
+  width: 101%;
+  margin-top: 1rem;
+  color: var(--lite);
+  background-color: var(--mountainMeadow);
+  box-shadow: 0 7px 3px 1px rgba(62, 60, 73, .3);
+}
+
+.termsAndServices {
+
+}
+/* Form Error Effects */
+
+.err { 
+  background: var(--lite); 
+  border: 1px solid var(--salmon); 
+}
+
+.emsg { 
+  color: var(--salmon); 
+  font-weight: bold; 
+}
+
+
+/* Attribution */
+
+.attribution {
+  padding-top: 3rem;
+}
