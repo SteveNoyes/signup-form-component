@@ -58,6 +58,12 @@ body {
  * Desktop: 1440px 
 */
 
+.topSection {
+  margin: auto;
+  align-items:center;
+  justify-content:center;
+}
+
 .heading {
   font-weight: 600;
   font-size: 1.8rem;
@@ -125,19 +131,44 @@ input {
   margin-bottom: 1rem;
 }
 
+input::placeholder {
+  padding-left: 1rem;
+  font-weight: 700;
+  color: var(--arsenic)
+}
+
 /* Form Submit */
 
 .submitBtn {
   width: 101%;
   margin-top: 1rem;
+  margin-bottom: 0;
   color: var(--lite);
   background-color: var(--mountainMeadow);
   box-shadow: 0 7px 3px 1px rgba(62, 60, 73, .3);
 }
 
-.termsAndServices {
-
+.submitBtn:hover {
+  cursor: pointer;
+  background-color: var(--liteMountainMeadow);
 }
+
+.termsAndServices {
+  color: var(--lavenderGray);
+  width: 75%;
+  text-align: center;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.8rem;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.salmonCol {
+  font-weight: bold;
+  color: var(--salmon);
+}
+
 /* Form Error Effects */
 
 .err { 
@@ -155,4 +186,37 @@ input {
 
 .attribution {
   padding-top: 3rem;
+  font-size: 10px;
+  text-align: center;
+  color: var(--arsenic);
+}
+
+.attribution a {
+  color: var(--liberty);
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 900px) {
+  .flex-container {
+    display: flex;
+    padding-top: 3rem;
+  }
+  
+  .heading {
+    font-weight: 700;
+  }
+
+  .flex-child {
+    flex: 1;
+  }  
+
+  .flex-child:first-child {
+    margin-right: 20px;
+  } 
+
 }

@@ -18,28 +18,34 @@
 </head>
 <body>
   <main>
-    <h1 class="heading">Learn to code by watching others</h1>
-    <p class="graph">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
-    <div class="offerModule">
-      <p><span>Try it free 7 days</span> then<br> $20/mo. thereafter</p>
-    </div>
-    <div class="freetrialForm">  
-      <form novalidate>
-        <label for="fname"></label><br>
-        <input type="text" id="fname" name="fname" placeholder="First Name" required>
-        <div id="fcname" class="emsg"></div> 
-        <label for="lname"></label><br>
-        <input type="text" id="lname" name="lname" placeholder="Last Name">
-        <div id="lcname" class="emsg"></div>
-        <label for="email"></label><br>
-        <input type="email" id="email" pattern=".+@globex\.com" size="30" required placeholder="Email Address">
-        <div id="cemail" class="emsg"></div>
-        <label for="pwd"></label><br>
-        <input type="password" id="pwd" name="pwd" placeholder="Password">
-        <div id="cpwd" class="emsg"></div>
-        <input class="submitBtn" type="submit" onsubmit="check()" value="CLAIM YOUR FREE TRIAL"/>
-      </form>
-      <p class="termsAndServices">By clicking the button, you are agreeing to our <span class="salmonCol">Terms and Services</span></p>
+    <div class="flex-container">
+      <div class="flex-child topSection">
+        <h1 class="heading">Learn to code by<br> watching others</h1>
+        <p class="graph">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+      </div>
+      <div class="flex-child">
+        <div class="offerModule">
+          <p><span>Try it free 7 days</span> then<br> $20/mo. thereafter</p>
+        </div>
+        <div class="freetrialForm">  
+          <form novalidate>
+            <label for="fname"></label><br>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required>
+            <div id="fcname" class="emsg"></div> 
+            <label for="lname"></label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+            <div id="lcname" class="emsg"></div>
+            <label for="email"></label><br>
+            <input type="email" id="email" pattern=".+@globex\.com" size="30" required placeholder="Email Address">
+            <div id="cemail" class="emsg"></div>
+            <label for="pwd"></label><br>
+            <input type="password" id="pwd" name="pwd" placeholder="Password">
+            <div id="cpwd" class="emsg"></div>
+            <input class="submitBtn" type="submit" onclick="check()" value="CLAIM YOUR FREE TRIAL"/>
+          </form>
+          <p class="termsAndServices">By clicking the button, you are agreeing to our <span class="salmonCol">Terms and Services</span></p>
+        </div>
+      </div>
     </div>
   </main>
   <footer>

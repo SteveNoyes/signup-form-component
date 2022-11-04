@@ -54,9 +54,16 @@ Provided are code samples of areas of highlight.
 <h1>Some HTML code I'm proud of</h1>
 ```
 
+I dislike that this width is 101 to fit in with the rest of the form. But I am unsure why it is not the same length as the other inputs set at 100% width.
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* Form Submit */
+
+.submitBtn {
+  width: 101%;
+  margin-top: 1rem;
+  color: var(--lite);
+  background-color: var(--mountainMeadow);
+  box-shadow: 0 7px 3px 1px rgba(62, 60, 73, .3);
 }
 ```
 
@@ -68,7 +75,7 @@ const proudOfThisFunc = () => {
 
 ### Useful resources
 
-- [The Markdown Guide](https://www.markdownguide.org/) - Helpful in making this more readable. 
+- [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/@media) - Helpful in making this more readable. 
 
 - [email input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
