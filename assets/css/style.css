@@ -1,6 +1,7 @@
 /* Colors */
 /* 
 Primary
+
 - Salmon: 
     hsl(0, 100%, 74%), 
     #ff7a7a, 
@@ -173,11 +174,11 @@ input::placeholder {
 
 .err { 
   background: var(--lite); 
-  border: 1px solid var(--salmon); 
+  border: 1px solid #FF7979; 
 }
 
 .emsg { 
-  color: var(--salmon); 
+  color: #FF7979; 
   font-weight: bold; 
 }
 
@@ -194,11 +195,6 @@ input::placeholder {
 .attribution a {
   color: var(--liberty);
 }
-
-
-
-
-
 
 
 @media screen and (min-width: 900px) {

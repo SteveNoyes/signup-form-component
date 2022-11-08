@@ -1,8 +1,3 @@
-
-
-
-
-
 // FORM CHECK 
 
 function check () {
